@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #CBC8CB;
+}
+#myform{
+	border: 1px solid;
+	border-radius: 10px;
+	width: 40%;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 450px;
+	margin-top: 200px;
+	background-color:#CAEEFC ;
+	color: black;
+	box-shadow: 5px 5px  10px black;
+}
+
+.contain{
+	margin-top: 50px;
+}
+
+#btn{
+	cursor: pointer;
+	margin-left: 100px;
+	background-color: #2EB145;
+	color: white;
+	font-weight: bold;
+}
+#btn:hover{
+	background-color: green;
+}
+label{
+	margin-left: 50px;
+}
+#num{
+	
+	width: 50px;
+	margin-left: 5px;
+}
+
+#info{
+	margin-left: 50px;
+	font-size: 17px;
+	text-align: center;
+}
+input[type="reset"]{
+	margin-left: 5px;
+	cursor: pointer;
+	color: white;
+	background-color: tomato;
+	font-weight: bold;
+}
+input[type="reset"]:hover{
+	background-color: red;
+}
+
+input{
+	padding: 5px;
+}
+select{
+	padding: 5px;
+}
+
+
